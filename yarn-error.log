@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/jasonge/.nvm/versions/node/v10.16.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js add express
+
+PATH: 
+  /Users/jasonge/.nvm/versions/node/v10.16.0/bin:/Users/jasonge/.rbenv/shims:/usr/local/google-cloud-sdk/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/bin:~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:/usr/local/opt/python/libexec/bin:/usr/local/bin:/opt/chefdk/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Users/jasonge/bin/:/usr/local/mysql/bin:/Users/jasonge/devtools/arcanist/bin/:/Users/jasonge/go/bin:/usr/local/octave/3.8.0/bin:/Users/jasonge/.fzf/bin:/Users/jasonge/.iterm2:/Users/jasonge/.iterm2
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jasonge/jksj-repo/git-atomic-demo/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
