@@ -6,6 +6,10 @@ app.get('/timestamp', function (req, res) {
   res.send('' + Date.now())
 })
 
+app.get('/getRandom', function (req, res) {
+  res.send('' + Math.random())
+})
+
 app.get('/', function (req, res) {
   res.send('hello world')
 })
