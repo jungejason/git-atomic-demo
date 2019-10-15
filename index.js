@@ -1,6 +1,6 @@
-var port = 3000
-var express = require('express')
-var app = express()
+const port = 3000
+const express = require('express')
+const app = express()
 
 app.get('/timestamp', function (req, res) {
   res.send('' + Date.now())
